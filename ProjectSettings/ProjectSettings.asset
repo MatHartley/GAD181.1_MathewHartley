@@ -850,8 +850,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: GAD181.1_MathewHartley
-  metroPackageVersion: 
+  metroPackageName: GAD181.1MathewHartley
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -859,7 +859,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: GAD181.1_MathewHartley
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Can't Outrun An Angry God
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
