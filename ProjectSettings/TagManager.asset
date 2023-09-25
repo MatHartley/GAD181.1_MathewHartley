@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SceneLoad
+  - Lava
   layers:
   - Default
   - TransparentFX

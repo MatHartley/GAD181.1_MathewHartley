@@ -17,10 +17,5 @@ namespace MathewHartley
             loadDeath = GameObject.FindGameObjectWithTag("SceneLoad").GetComponent<SceneLoader>();
         }
 
-        //Loads the player death screen
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-                loadDeath.LoadDeath();
-        }
     }
 }

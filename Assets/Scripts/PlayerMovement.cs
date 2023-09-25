@@ -24,6 +24,8 @@ namespace MathewHartley
         private bool isGrounded;
         private int jumpCount;
 
+        SceneLoader loadDeath;
+
         // Awake is called after all objects are instantialized
         private void Awake()
         {
@@ -33,6 +35,7 @@ namespace MathewHartley
         private void Start()
         {
             jumpCount = maxJump;
+            loadDeath = GameObject.FindGameObjectWithTag("SceneLoad").GetComponent<SceneLoader>();
         }
 
         // Update is called once per frame
@@ -99,6 +102,16 @@ namespace MathewHartley
         {
             facingRight = !facingRight;
             transform.Rotate(0f, 180f, 0f);
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Lava"))
+            {
+                Destroy(gameObject);
+                loadDeath.LoadDeath();
+
+            }
         }
     }
 }
