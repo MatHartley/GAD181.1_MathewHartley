@@ -1907,6 +1907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae84bfe694df90f488b11c468634bcfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadDeath: {fileID: 0}
 --- !u!114 &2122923584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1980,7 +1981,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Lava
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4924378238090411562, guid: e2bf7d4a166ef214ca1bf1dfa1f7ff7e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
